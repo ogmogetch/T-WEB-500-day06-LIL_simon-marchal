@@ -1,10 +1,9 @@
 export function drawTriangle(height) {
-    for (let i = 1; i <= height; i++) {
-        let row = "";
 
-        for (let k = 1; k <= i - 1; k++) {
-            row += "$";
+    for (let i = 1; i <= height; i++) {
+
+        console.log('$'.repeat(i));
+
     }
-    console.log(row);
-    }
+
 }
