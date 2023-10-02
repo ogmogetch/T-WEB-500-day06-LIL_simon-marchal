@@ -6,10 +6,6 @@ function range(start, end, step) {
     }
         var result = [];
     
-        if (step === 0) {
-        throw new Error('Step cannot be zero');
-        }
-    
         if (start < end && step < 0) {
         return result;
         }
