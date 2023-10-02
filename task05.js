@@ -1,6 +1,9 @@
 
 
-function range(start, end, step = 1) {
+function range(start, end, step) {
+    if (step === undefined){
+        step = 1
+    }
         var result = [];
     
         if (step === 0) {
@@ -22,4 +25,4 @@ function range(start, end, step = 1) {
         return result;
 }
 
-module.exports = range;
+module.exports = {range};
