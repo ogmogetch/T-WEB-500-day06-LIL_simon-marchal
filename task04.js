@@ -11,5 +11,5 @@ export function fizzBuzz(num) {
             tab.push(i);
         }
     }
-    return tab.join(", ")
+    console.log(tab.join(", "))
 }

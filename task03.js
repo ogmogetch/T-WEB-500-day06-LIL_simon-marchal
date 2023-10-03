@@ -7,7 +7,3 @@ export function countGs(str){
     }
     return count
 }
-
-
-
-
